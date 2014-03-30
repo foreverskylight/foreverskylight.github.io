@@ -1,16 +1,35 @@
 <head>
-<style type="text/css">
-      body 
-      {
-      background-color: #e6e6e6;
-      font-family: tahoma;
-      font-size: 12;
-      }
+      <style type="text/css">
+            body {
+                  background-color: #e6e6e6;
+                  font-family: tahoma;
+                  font-size: 12;
+            }
+      
+            @-webkit-keyframes spin {
+                  0%  { -webkit-transform:rotate(0deg);   }
+                  80% { -webkit-transform:rotate(360deg); }
+                  100%{ -webkit-transform:rotate(360deg); }
+            }
+            @-moz-keyframes spin {
+                  0%  { -moz-transform:rotate(0deg);   }
+                  80% { -moz-transform:rotate(360deg); }
+                  100%{ -moz-transform:rotate(360deg); }
+            }
+            .spinning-sprite { 
+                  -webkit-animation-name:spin;
+                  -webkit-animation-duration:2s;
+                  -webkit-animation-iteration-count:infinite;
+                  -moz-animation-name:spin;
+                  -moz-animation-duration:2s;
+                  -moz-animation-iteration-count:infinite;
+            }
+      
       </style>
-      </head>
+</head>
       
 
-<div align="center"><img src="http://i.imgur.com/QDKV3hh.png"><p></p>
+<div align="center"><img class="spinning-sprite" src="http://i.imgur.com/QDKV3hh.png"><p></p>
 <font size=16><b>pumpkaboo</b></font><div align="center"><b>
 <h2>BUTT IS CUTE HERE ARE BUTT QUOTES</h2>
 contribute butt quotes by PMing skylight!
