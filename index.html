@@ -1,18 +1,36 @@
 <head>
 <style type="text/css">
-      body 
-      {
-      background-color: #e6e6e6;
-      font-family: tahoma
+      body {
+            background-color: #e6e6e6;
+            font-family: tahoma
       }
+      #pum {
+          	-webkit-animation-duration:3s;
+          	-webkit-animation-name:dance;
+          	-webkit-animation-iteration-count: infinite;
+          	-moz-animation-duration:3s;
+          	-moz-animation-name:dance;
+          	-moz-animation-iteration-count: infinite;
+      }
+
+	@-webkit-keyframes dance {
+	    from { padding:0 120px 0 0; }
+	    50% { padding:0 0 0 120px; }
+	    to { padding:0 120px 0 0; }
+	}
+	@-moz-keyframes dance {
+	    from { padding:0 120px 0 0; }
+	    50% { padding:0 0 0 120px; }
+	    to { padding:0 120px 0 0; }
+	}
       </style>
-      </head>
+</head>
       
 <div align="center">
 <font size=16><b>pumpkaboo</b></font>
 <div class="smallfont"align="center">~skylight.loves.frizy</div>
 <p></p>
-<img src="http://puu.sh/7NXeg.png">
+<img id="pum" src="http://puu.sh/7NXeg.png">
 <p></p>
 <b>INTERESTING STUFF COMING SOON
       
